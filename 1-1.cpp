@@ -1,3 +1,7 @@
 print("hello world")
 
-print("hello world on main")
+<<<<<<< HEAD
+
+=======
+print("hello world 2")
+>>>>>>> develop
