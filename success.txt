@@ -1,5 +1,6 @@
-git push
-
+git add .
+git commit -m "message"
+git push (简单密码)
 
 git使用参考网站
 https://wintermelonc.github.io/WintermelonC_Docs/tools/git/
@@ -7,6 +8,12 @@ https://wintermelonc.github.io/WintermelonC_Docs/tools/git/
 vscode配置c/c++参考网站
 https://blog.csdn.net/qq_42417071/article/details/137438374 （配置失败）
 https://developer.aliyun.com/article/1477755  （配置成功，劝退vscode至vs）
-https://developer.aliyun.com/article/1477755
 
 中文乱码详见test.cpp
+
+报错preLaunchTask"C/C++:g++.exe 生成活动文件"
+1. 参考拓展C/C++内的链接“GCC and Mingw-w64 on Windows”
+   https://code.visualstudio.com/docs/cpp/config-mingw
+2. 卸载重装MSYS2，注意下载过程中有无安装失败的包，可先换源更新系统（使用MSYS2 UCRT64）
+3. 删除.vscode文件夹，重新ctrl+shift+p，选择“C/C++编译配置（UI）”，更改编辑器为g++.exe即可
+
