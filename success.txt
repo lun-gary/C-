@@ -7,5 +7,6 @@ https://wintermelonc.github.io/WintermelonC_Docs/tools/git/
 vscode配置c/c++参考网站
 https://blog.csdn.net/qq_42417071/article/details/137438374 （配置失败）
 https://developer.aliyun.com/article/1477755  （配置成功，劝退vscode至vs）
+https://developer.aliyun.com/article/1477755
 
 中文乱码详见test.cpp
